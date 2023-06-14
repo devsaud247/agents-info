@@ -1,0 +1,105 @@
+.pg-auth-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.pg-auth-field-block {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.input-field-container {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.label-container {
+    display: inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+
+.field-label {
+    position: relative;
+    top: -5px;
+    z-index: 13;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 4px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    color: #111827;
+    font-size: 12px;
+}
+
+.field {
+    height: 50px !important;
+    min-width: 100px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
+    color: #111827;
+    font-weight: 500;
+
+}
+
+.w-input,
+.w-select {
+    display: block;
+    width: 100%;
+    /* height: 38px; */
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.error-message {
+    display: block;
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-left: 3px;
+    border-radius: 8px;
+    color: red;
+}
+
+
+.long-field-wrapper {
+    margin-top: 15px;
+}
+
+.text-area-container {
+    height: 40px;
+}
