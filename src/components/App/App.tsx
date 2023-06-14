@@ -1,12 +1,12 @@
 import type { FC } from "react";
 import "./App.css";
 
-import Agents from "../Agents/Agents";
+import AgentsDashboard from "../AgentsDashboard/AgentsDashboard";
 
 const App: FC = () => {
   return (
     <div className="app">
-      <Agents />
+      <AgentsDashboard />
     </div>
   );
 };
